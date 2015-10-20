@@ -1,2 +1,5 @@
-# docker-goofys
-Goofys File System thingy for mounting between local FS and AWS S3 (sorta like what s3fs does)
+#docker-goofys
+
+Just messing around with goofys.
+
+    docker run -it --cap-add mknod --cap-add sys_admin --device=/dev/fuse goofys /bin/bash
